@@ -1,0 +1,791 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainContainer {
+    width: 100%;
+    height: 1810px;
+
+}
+
+#header {
+    background-color: #d40119;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    box-shadow: 2px 3px 38px rgba(0, 0, 0, 0.35);
+    opacity: 0.88;
+    display: flex;
+    justify-content: center;
+}
+
+#whiteSquare {
+    width: 20%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+#whiteSquare2 {
+    width: 201px;
+    height: 112px;
+    background-color: white;
+
+}
+
+#mainColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+#column1 {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+
+}
+
+#list1 {
+    width: 334px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul1 {
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    list-style: none;
+
+}
+
+.ul1 > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#adress {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#adressBlock {
+    width: 223px;
+    height: 32px;
+
+}
+
+#adress {
+    padding-top: 20px;
+}
+
+.underline {
+    width: 1px;
+    height: 51px;
+    background-image: url(images/Underline.png);
+    margin-left: 30px;
+
+}
+
+#skypeP {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#skype {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+#phone {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+#phoneP {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+#wrapContact {
+    display: flex;
+
+    margin-left: 60px;
+
+}
+
+#column2 {
+    display: flex;
+    width: 941px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ul2 {
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: 400;
+    list-style: none;
+    padding-top: 20px;
+
+}
+
+.ul2 > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+#aside {
+    width: 100%;
+    height: 641px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#headWrap {
+    background-image: url(images/mainPhoto.png);
+    background-size: 100% 100%;
+
+
+
+
+}
+
+#try {
+    position: absolute;
+    width: 100%;
+    height: 641px;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+h1 {
+    color: black;
+    font-family: Georgia;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 95px;
+}
+
+#mainText {
+    color: black;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+#wrapAside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    text-align: center;
+}
+
+#wrapAside > h1,
+#wrapAside > p {
+    color: white;
+}
+
+#circles {
+    width: 112px;
+    height: 35px;
+    background-image: url(images/circles4.png);
+    margin-top: 60px;
+}
+
+#section {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+#article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #282828;
+    font-family: Georgia;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#infoTour {
+    color: #252e37;
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.tour1 {
+    width: 243px;
+    height: 288px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.75);
+    margin-left: 40px;
+}
+
+#wrapTour1 {
+    background-image: url(images/tour1.png);
+    background-size: 100% 100%;
+    width: 243px;
+    height: 160px;
+}
+
+.headTour1 {
+    width: 100%;
+    height: 20px;
+    background-color: #252e37;
+    opacity: 0.38;
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+}
+
+.stars {
+    background-image: url(images/Icon_Star.png);
+    background-size: 100% 100%;
+    width: 63px;
+    height: 12px;
+}
+
+.iconPerson {
+    width: 11px;
+    height: 9px;
+    background-image: url(images/iconPerson.png);
+    background-size: 100% 100%;
+    margin-left: 106px;
+
+}
+
+.spanNum {
+    color: #fbfbfb;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.heartIcon {
+    width: 11px;
+    height: 9px;
+    background-image: url(images/heart.png);
+    background-size: 100% 100%;
+    margin-left: 13px;
+}
+
+.mid1 {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotel {
+    color: #191919;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.spain {
+    color: #191919;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.mid2 {
+    background-image: url(images/price.png);
+    background-size: 100% 100%;
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divMid {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fire {
+    width: 13px;
+    height: 13px;
+    background-image: url(images/fire.png);
+    background-size: 100% 100%;
+    margin-left: 15px;
+}
+
+.fireP {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.divFinish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finishP {
+    color: #191919;
+    font-family: Georgia;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    margin-top: 3px;
+}
+
+.finishButton {
+    background-image: url(images/buttonOrder.png);
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    outline: 0;
+    border: 0;
+
+}
+
+#toursPhoto {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+
+#wrapTour2 {
+    background-image: url(images/tour2.png);
+    background-size: 100% 100%;
+    width: 243px;
+    height: 160px;
+}
+
+#wrapTour3 {
+    background-image: url(images/tour3.png);
+    background-size: 100% 100%;
+    width: 243px;
+    height: 160px;
+}
+
+#wrapTour4 {
+    background-image: url(images/tour4.png);
+    background-size: 100% 100%;
+    width: 243px;
+    height: 160px;
+}
+
+#offers {
+    border-radius: 3px;
+    border: 1px solid #252e37;
+    background-color: transparent;
+
+    color: #252e37;
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    outline: 0;
+    margin-top: 40px;
+}
+
+#footer {
+    width: 100%;
+    height: 422px;
+    background-image: url(images/footer.png);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#foot1 {
+    width: 390px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.ulFoot > li {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    list-style: circle;
+}
+
+#foot2 {
+    width: 390px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot2P {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 20px;
+}
+
+.foot2P::before {
+    width: 10px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    background-image: url(images/location.png);
+    background-size: 100% 100%;
+    margin-left: -21px;
+    margin-top: 5px;
+}
+
+#foot2before {
+    position: relative;
+}
+
+#foot2before::before {
+    width: 10px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    background-image: url(images/skype.png);
+    background-size: 100% 100%;
+    margin-left: -21px;
+    margin-top: 5px;
+}
+
+#foot2before2 {
+    position: relative;
+}
+
+#foot2before2::before {
+    width: 10px;
+    height: 10px;
+    content: "";
+    position: absolute;
+    background-image: url(images/tel.png);
+    background-size: 100% 100%;
+    margin-left: -21px;
+    margin-top: 5px;
+}
+
+.directorP {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 20px;
+}
+
+.directorP::before {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    content: "";
+    background-image: url(images/Photo_director.png);
+    background-size: 100% 100%;
+    margin-left: -43px;
+
+}
+
+#wrapFoot2 > hr {
+    margin-top: 10px;
+}
+
+#foot3 {
+    width: 390px;
+    height: 300px;
+    border: 1px solid #ffffff;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase
+}
+
+#socials {
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#socialsPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#socialsPhoto > img {
+    margin-left: 17px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Адаптивка*/
+
+@media screen and (max-width: 1168px) {
+    #column2 {
+        width: 82%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ul2 > li {
+        text-align: center;
+    }
+    #adress {
+        margin-left: -70px;
+    }
+    .underline {
+        display: none;
+    }
+    #skype {
+        margin-left: -100px;
+        font-size: 80%;
+    }
+    .ul1 > li {
+        font-size: 80%;
+        margin-left: -20px;
+    }
+    #adress {
+        font-size: 80%;
+    }
+    #phoneP {
+        font-size: 80%;
+    }
+    #hrHead {
+        width: 70%;
+    }
+    #wrapAside > h1 {
+        font-size: 33px;
+    }
+    #mainText {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    #tourExtra {
+        display: none;
+    }
+    h4 {
+        text-align: center;
+        font-size: 85%;
+    }
+    #socials {
+        font-size: 77%;
+    }
+    #foot1 {
+        width: 418px;
+        height: 269px;
+    }
+    #foot2 {
+        width: 418px;
+        height: 269px;
+    }
+    #foot3 {
+        width: 418px;
+        height: 269px;
+    }
+    #foot4 {
+        width: 418px;
+        height: 269px;
+    }
+    .directorP::before {
+        margin-left: 182px;
+    }
+    #socialsPhoto > img {
+        width: 32px;
+    }
+    .ulFoot > li {
+        font-size: 13px;
+    }
+    .foot2P {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 31px;
+    }
+    #infoTour {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 860px) {
+    #whiteSquare2 {
+        width: 121px;
+        height: 64px;
+        margin-left: -98px;
+        margin-top: 20px;
+        margin-top: -65px;
+    }
+    .tour1 {
+        width: 230px;
+        margin-left: 5px;
+    }
+    .directorP::before {
+        margin-left: 102px;
+        margin-top: -20px;
+        margin-top: -14px;
+    }
+}
+
+
+
+@media screen and (max-width: 860px){
+    #whiteSquare2{
+        display: none;
+    }
+    #list1{
+        margin-left: -73px;
+    }
+    h1{
+        line-height: 40px;
+    }
+    #wrapContact{
+        margin-left: 21px;
+    }
+    .fExtra{
+        border: 0px solid black !important;
+         margin-left: -43px !important;
+    }
+    #footer{
+        height: 291px;
+       
+    }
+    #mainContainer{
+        height: 1682px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 590px){
+    #adress{
+        display: none;
+    }
+    #skypeP{
+        margin-left: -185px;
+    }
+    #phoneP{
+        margin-left: -136px;
+    }
+    #none2{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
